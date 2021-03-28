@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import sys
-from .core_solver import find_shortest_words_path
-from .vocabulary_provider import get_hebrew_vocabulary
+from core_solver import find_shortest_words_path
+from vocabulary_provider import get_hebrew_vocabulary
 
 
 def _run(w1: str, w2: str) -> None:

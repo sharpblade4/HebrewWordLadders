@@ -25,7 +25,10 @@ def get_hebrew_vocabulary() -> Set[str]:
         Set[str],
         np.load(
             os.path.join(
-                os.path.dirname(__file__), os.path.pardir, "hebrew_words_extended.npy"
+                os.path.dirname(__file__),
+                os.path.pardir,
+                "res",
+                "hebrew_words_extended.npy",
             ),
             allow_pickle=True,
         ).item(),

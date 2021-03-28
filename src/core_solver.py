@@ -1,7 +1,7 @@
 from typing import Set, Optional, Callable, List
 import functools
 import time
-from .visualizer import visualize
+from visualizer import visualize
 
 RESTRICT_WORD_LENGTH = True
 
