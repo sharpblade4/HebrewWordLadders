@@ -9,6 +9,14 @@ A computed solver for the hebrew version of a word-ladders game
 This was used as a part of an activity for "passover seder". See attached slides under "res".
 
 ### Usage
+#### One time setup
+Assuming you have python3 installed on your machine.
+```
+git clone https://github.com/sharpblade4/HebrewWordLadders.git  &&\
+cd HebrewWordLadders  &&\
+python -m pip install -r requirements.txt
+```
+#### Run
 `./src/main.py עבדות חירות`
 
 ### License
